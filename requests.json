@@ -1,0 +1,58 @@
+[
+  {
+    "request": {
+      "command": "да",
+      "original_utterance": "да"
+    },
+    "session": {
+      "new": true,
+      "message_id": 1,
+      "session_id": "example-session-1",
+      "skill_id": "example-skill",
+      "user_id": "user-123"
+    },
+    "version": "1.0"
+  },
+  {
+    "request": {
+      "command": "нет",
+      "original_utterance": "нет"
+    },
+    "session": {
+      "new": false,
+      "message_id": 2,
+      "session_id": "example-session-1",
+      "skill_id": "example-skill",
+      "user_id": "user-123"
+    },
+    "version": "1.0"
+  },
+  {
+    "request": {
+      "command": "сделаю к следующему уроку",
+      "original_utterance": "сделаю к следующему уроку"
+    },
+    "session": {
+      "new": false,
+      "message_id": 3,
+      "session_id": "example-session-1",
+      "skill_id": "example-skill",
+      "user_id": "user-123"
+    },
+    "version": "1.0"
+  },
+  {
+    "request": {
+      "command": "ладно",
+      "original_utterance": "ладно"
+    },
+    "session": {
+      "new": false,
+      "message_id": 4,
+      "session_id": "example-session-1",
+      "skill_id": "example-skill",
+      "user_id": "user-123"
+    },
+    "version": "1.0"
+  }
+]
