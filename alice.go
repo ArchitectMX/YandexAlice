@@ -49,6 +49,11 @@ func handleAlice(w http.ResponseWriter, r *http.Request) {
 func handleDialog(req *models.AliceRequest, res *models.AliceResponse, user *models.UserState) {
 	input := strings.ToLower(req.Request.OriginalUtterance)
 
+	if strings.TrimSpace(input) == "" {
+		res.Response.Text = "Привет! Чтобы начать, скажите 'да', 'согласен' или 'покажи PA'."
+		return
+	}
+
 	// Запрос на вывод полного Police Agreement
 	if contains(input, []string{"покажи pa", "полный pa", "скажи pa", "полное соглашение", "police agreement", "договор", "условия"}) {
 		res.Response.Text = `🚨 Police Agreement
