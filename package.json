@@ -1,0 +1,100 @@
+[
+  {
+    "name": "🛡 Запрос Police Agreement",
+    "body": {
+      "version": "1.0",
+      "session": {
+        "session_id": "123",
+        "message_id": 1,
+        "user_id": "user123"
+      },
+      "request": {
+        "original_utterance": "покажи PA"
+      }
+    }
+  },
+  {
+    "name": "✅ Согласие с PA",
+    "body": {
+      "version": "1.0",
+      "session": {
+        "session_id": "123",
+        "message_id": 2,
+        "user_id": "user123"
+      },
+      "request": {
+        "original_utterance": "согласен"
+      }
+    }
+  },
+  {
+    "name": "🚫 Отказ после согласия",
+    "body": {
+      "version": "1.0",
+      "session": {
+        "session_id": "123",
+        "message_id": 3,
+        "user_id": "user123"
+      },
+      "request": {
+        "original_utterance": "не хочу"
+      }
+    }
+  },
+  {
+    "name": "🛠 Согласие на создание навыка",
+    "body": {
+      "version": "1.0",
+      "session": {
+        "session_id": "123",
+        "message_id": 4,
+        "user_id": "user123"
+      },
+      "request": {
+        "original_utterance": "сделаю к следующему уроку"
+      }
+    }
+  },
+  {
+    "name": "⏳ Сколько времени осталось",
+    "body": {
+      "version": "1.0",
+      "session": {
+        "session_id": "123",
+        "message_id": 5,
+        "user_id": "user123"
+      },
+      "request": {
+        "original_utterance": "сколько осталось времени"
+      }
+    }
+  },
+  {
+    "name": "🎯 Финальное согласие",
+    "body": {
+      "version": "1.0",
+      "session": {
+        "session_id": "123",
+        "message_id": 6,
+        "user_id": "user123"
+      },
+      "request": {
+        "original_utterance": "ладно"
+      }
+    }
+  },
+  {
+    "name": "🎤 Обычный запрос",
+    "body": {
+      "version": "1.0",
+      "session": {
+        "session_id": "123",
+        "message_id": 7,
+        "user_id": "user123"
+      },
+      "request": {
+        "original_utterance": "а я думаю"
+      }
+    }
+  }
+]
